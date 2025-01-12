@@ -13,7 +13,7 @@ public class LoginTests extends BaseTest {
                 loginPage.fillEmail(email)
                 .fillPassword(password)
                 .clickLogin();
-        sleep(5000);
+        sleep(3000);
     }
 
     @Test(description = "Başarısız giriş kontrolü")
@@ -21,7 +21,7 @@ public class LoginTests extends BaseTest {
         loginPage.fillEmail(email)
                 .fillPassword("TestYanlisSifre")
                 .clickLogin();
-        Thread.sleep(5000);
+        Thread.sleep(3000);
        loginPage.errorMessageController(errorLoginMessage);
     }
 
