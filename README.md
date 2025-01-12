@@ -4,9 +4,13 @@ Başarılı Giriş Sağlanması
 
 Başarısız Giriş Kontrolü
 
-Ürün Araması Yapılması Kontrolü
+Ürün Araması Yapıldı.
 
-Ürünü Sepete Gönderme
+Ürünü Sepete Gönderme.
+
+Sepete Girme İşlemi.
 
 Sepette Onaylama ve Ödeme İşlemine Geçilme Noktasına Kadar Getirildi.
+
+
 
