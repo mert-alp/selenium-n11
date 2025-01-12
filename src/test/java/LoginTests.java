@@ -31,7 +31,11 @@ public class LoginTests extends BaseTest {
                 .fillPassword(password)
                 .clickLogin();
             driver.findElement(By.id("searchData")).sendKeys("iphone 16 pro", Keys.ENTER);
-            driver.findElement(By.className("btnBasket")).click();
-        sleep(5000);
+             driver.findElement(By.className("plink")).click();
+          driver.findElement(By.className("addBasketUnify")).click();
+           driver.findElement(By.className("myBasket")).click();
+        sleep(1000);
+        driver.findElement(By.className("btnHolder")).click();
+        sleep(3000);
     }
 }
